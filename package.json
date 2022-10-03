@@ -1,6 +1,6 @@
 {
   "name": "sunriv",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "dist/index.js",
   "bin": {
@@ -9,8 +9,7 @@
   "scripts": {
     "prebuild": "rm -rf dist",
     "build": "tsc",
-    "start": "bin/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "bin/index.js"
   },
   "author": "SeungHyun Kim",
   "keywords": [
@@ -18,5 +17,12 @@
     "sunriv"
   ],
   "homepage": "https://github.com/heyask/npx-sunriv",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "ink": "^3.2.0",
+    "react": "^17.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.21"
+  }
 }
