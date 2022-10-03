@@ -1,0 +1,22 @@
+{
+  "name": "sunriv",
+  "version": "1.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "bin": {
+    "sunriv": "bin/index.js"
+  },
+  "scripts": {
+    "prebuild": "rm -rf dist",
+    "build": "tsc",
+    "start": "bin/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "SeungHyun Kim",
+  "keywords": [
+    "npx",
+    "sunriv"
+  ],
+  "homepage": "https://github.com/heyask/npx-sunriv",
+  "license": "ISC"
+}

@@ -1,1 +1,5 @@
-# npx-ksh
+# npx-sunriv
+
+```shell
+npx sunriv
+```
